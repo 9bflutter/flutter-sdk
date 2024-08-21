@@ -59,7 +59,7 @@ def sdkVariantVersion = "1.0.0"
 
 android {
     namespace  "com.truecallersdk"
-    compileSdkVersion 28
+    compileSdkVersion 35
     
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
