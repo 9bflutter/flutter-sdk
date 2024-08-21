@@ -58,8 +58,9 @@ def sdkVariant = "flutter"
 def sdkVariantVersion = "1.0.0"
 
 android {
+    namespace  "com.truecallersdk"
     compileSdkVersion 28
-
+    
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
